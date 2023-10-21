@@ -25,3 +25,7 @@ answer, including your reasoning, to this markdown file.
 ## Bonus
 
 Implement and analyze breadth-first search.
+
+
+## Answer
+For the depth first search the algorithm starts with the first node and then searches a path until it finds the target node or it find the end. For the worst case time complexity I believe it would be something close to $\Theta$ $(V + E)$ where V is vertexes and E is edges. I believe that because in the worst case it runs through all of the verticies and all of the edges but it doesnt look at nodes or edges multiple times so its just the sum of them.
